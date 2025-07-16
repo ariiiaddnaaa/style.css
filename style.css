@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #222;
+  margin-bottom: 30px;
+}
+
+#malla {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 15px;
+  overflow-x: auto;
+}
+
+.semestre {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.semestre h3 {
+  margin-top: 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.ramo {
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.ramo:hover {
+  transform: scale(1.05);
+}
+
+/* Colores por área */
+.Ciencias\ Básicas { background-color: #4a90e2; }
+.Ciencias\ de\ la\ Ingeniería { background-color: #50e3c2; }
+.Realidad\ Extendida\ y\ Robótica { background-color: #f5a623; }
+.Diseño\ e\ Interacción\ H-M { background-color: #9013fe; }
+.Fundamentos\ de\ Computación { background-color: #00796b; }
+.Formación\ General { background-color: #f44336; }
+.Electivos { background-color: #607d8b; }
+.Prácticas { background-color: #795548; }
+.Proyecto { background-color: #3f51b5; }
